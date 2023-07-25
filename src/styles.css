@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Rubik";
+    src: local("./assets/fonts/Rubik-VariableFont_wght.ttf") format("truetype");
+
+}
+:root {
+    /* primary */
+    --blue: hsl(246, 80%, 60%);
+    /* neutral */
+    --very-dark-blue:hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --desatured-blue: hsl(235, 45%, 61%);
+    --pale-blue: hsl(236, 100%, 87%);
+
+    /* color category section */
+    --work: hsl(15, 100%, 70%);
+    --play: hsl(195, 74%, 62%);
+    --study: hsl(348, 100%, 68%);
+    --exercise: hsl(145, 58%, 55%);
+    --social: hsl(264, 64%, 52%);
+    --self-care: hsl(43, 84%, 65%);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    background-color: var(--very-dark-blue);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}

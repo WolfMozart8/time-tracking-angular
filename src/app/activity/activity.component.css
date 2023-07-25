@@ -1,0 +1,32 @@
+.box {
+  position: relative;
+  background-color: var(--dark-blue);
+  height: 100%;
+  /* background: fixed; */
+}
+
+.box__main {
+  font-size: 16px;
+  position: absolute;
+  padding: 0 25px;
+  width: 100%;
+  bottom: 0;
+  height: 80%;
+}
+.box__main header {
+  position: relative;
+}
+
+.box__main-title {
+  margin: 20px 0;
+  font-size: 16px;
+}
+.box__main-menu {
+  position: absolute;
+  right: 4px;
+  top: 0px;
+}
+.box__main-hours {
+  font-size: 54px;
+  margin-bottom: 4px;
+}
