@@ -24,12 +24,12 @@ main {
 
     margin: 0 auto;
   }
-  .user {
+  /* .user {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--dark-blue);
-  }
+  } */
   /* .activity {
     display: grid;
     gap: 27px;

@@ -1,4 +1,9 @@
-
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+}
   .user__main {
     height: 67%;
     padding: 26px;
@@ -6,6 +11,12 @@
   }
   .user__main-avatar {
     height: 76px;
+    width: fit-content;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  .user__main-avatar img {
+    height: 100%;
   }
   .user__main-info h4 {
     margin-bottom: 0;
