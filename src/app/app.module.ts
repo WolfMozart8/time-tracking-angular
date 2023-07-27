@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { UserComponent } from './user/user.component';
-import { ActivityComponent } from './activity/activity.component';
-import { ContainerComponent } from './container/container.component';
+import { UserComponent } from './components/user/user.component';
+import { ActivityComponent } from './components/activity/activity.component';
+import { ContainerComponent } from './components/wrappers/container/container.component';
+import { DataService } from './services/data.service';
+
 
 @NgModule({
   declarations: [
@@ -14,9 +17,10 @@ import { ContainerComponent } from './container/container.component';
     ContainerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

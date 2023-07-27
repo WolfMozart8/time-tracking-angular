@@ -1,0 +1,13 @@
+
+<div *ngIf="activity" [ngClass]="bgStyle ? 'box ' + bgStyle : 'box'" >
+    <div class="box__main">
+        <header>
+            <h2 class="box__main-title">{{activity.title}}</h2>
+            <div class="box__main-menu">
+                <img src="../../../assets/images/icon-ellipsis.svg" alt="">
+            </div>
+        </header>
+        <div class="box__main-hours">{{activity.timeframes.daily.current}}hrs</div>
+        <div class="box__main-last-hours">Last Week - {{activity.timeframes.daily.previous}}hrs</div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+.box {
+  position: relative;
+  height: 100%;
+  /* default bg */
+  background: var(--dark-blue);
+}
+
+.box__main {
+  font-size: 16px;
+  background-color: var(--dark-blue);
+  position: absolute;
+  padding: 0 25px;
+  width: 100%;
+  bottom: 0;
+  height: 80%;
+}
+.box__main header {
+  position: relative;
+}
+
+.box__main-title {
+  margin: 20px 0;
+  font-size: 16px;
+}
+.box__main-menu {
+  position: absolute;
+  right: 4px;
+  top: 0px;
+}
+.box__main-hours {
+  font-size: 54px;
+  margin-bottom: 4px;
+}
+
+.bg-work {
+  background: var(--work) url("../../../assets/images/icon-work.svg");
+}
+.bg-play {
+  background: var(--play) url("../../../assets/images/icon-play.svg");
+}
+.bg-study {
+  background: var(--study) url("../../../assets/images/icon-study.svg");
+}
+.bg-exercise {
+  background: var(--exercise) url("../../../assets/images/icon-exercise.svg");
+  background-position: 125px 0;
+  background-repeat: no-repeat;
+
+}
+.bg-social {
+  background: var(--social) url("../../../assets/images/icon-social.svg");
+}
+.bg-self-care {
+  background: var(--self-care) url("../../../assets/images/icon-self-care.svg");
+}
+
+.bg-work,
+.bg-play,
+.bg-study,
+.bg-social,
+.bg-self-care {
+  background-repeat: no-repeat;
+  background-position: 125px -15px;
+}

@@ -1,0 +1,7 @@
+<section class="activity">
+
+    <ng-container *ngFor="let timeData of data, let i = index">
+        <app-activity [activity]="timeData" [bgStyle]="bgStyles[i]"></app-activity>
+    </ng-container>
+
+</section>
