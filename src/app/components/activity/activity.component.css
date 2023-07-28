@@ -1,8 +1,12 @@
 .box {
+  user-select: none;
   position: relative;
   height: 100%;
   /* default bg */
   background: var(--dark-blue);
+}
+.box:active > .box__main {
+  background-color: var(--desatured-blue);
 }
 
 .box__main {
@@ -15,21 +19,38 @@
   height: 80%;
 }
 .box__main header {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .box__main-title {
   margin: 20px 0;
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .box__main-menu {
-  position: absolute;
-  right: 4px;
-  top: 0px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
 }
+
+.box__main-menu:hover {
+  cursor: pointer;
+}
+.box__main-menu:hover img {
+  filter: brightness(2);
+}
+
 .box__main-hours {
-  font-size: 54px;
+  font-size: 3rem;
   margin-bottom: 4px;
+}
+.box__main-last-hours {
+  color: var(--pale-blue);
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .bg-work {
@@ -45,7 +66,6 @@
   background: var(--exercise) url("../../../assets/images/icon-exercise.svg");
   background-position: 125px 0;
   background-repeat: no-repeat;
-
 }
 .bg-social {
   background: var(--social) url("../../../assets/images/icon-social.svg");
@@ -60,5 +80,6 @@
 .bg-social,
 .bg-self-care {
   background-repeat: no-repeat;
-  background-position: 125px -15px;
+  background-position: top 0% right 20%;
+  background-size: 30%;
 }

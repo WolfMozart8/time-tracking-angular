@@ -15,7 +15,9 @@ main {
     /* position: absolute;
     top: 221px;
     left: 142px; */
-    width: 964px;
+    width: 100vw;
+    padding: 0 5%;
+    max-width: 964px;
     height: 450px;
 
     display: grid;
