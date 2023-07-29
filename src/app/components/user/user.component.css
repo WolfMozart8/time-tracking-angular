@@ -32,6 +32,7 @@
   height: 33%;
 }
 .user__time > ul {
+  user-select: none;
   height: 100%;
   margin: 0;
   display: flex;

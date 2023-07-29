@@ -30,6 +30,7 @@
   font-weight: 500;
 }
 .box__main-menu {
+  user-select: none;
   width: 20px;
   height: 20px;
   display: flex;
