@@ -7,6 +7,7 @@ import { UserComponent } from './components/user/user.component';
 import { ActivityComponent } from './components/activity/activity.component';
 import { ContainerComponent } from './components/wrappers/container/container.component';
 import { DataService } from './services/data.service';
+import { SelectTimeService } from './services/select-time.service';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { DataService } from './services/data.service';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [DataService],
+  providers: [DataService, SelectTimeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

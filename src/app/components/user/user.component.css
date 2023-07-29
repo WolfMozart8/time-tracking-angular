@@ -47,6 +47,9 @@
   color: var(--pale-blue);
   font-weight: 400;
 }
+.user__time > ul > li.selected {
+  color: var(--white);
+}
 
 .user__time > ul > li:hover {
   cursor: pointer;

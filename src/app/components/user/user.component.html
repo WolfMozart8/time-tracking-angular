@@ -1,19 +1,25 @@
 <section class="user">
 
-<div class="user__main">
-<div class="user__main-avatar">
-    <img src="../../../assets/images/image-jeremy.png" alt="user avatar">
-</div>
-<div class="user__main-info">
-    <h4>Report for</h4>
-    <p>Jeremy Robson</p>
-</div>
-</div>
-<div class="user__time">
-    <ul>
-        <li class="time-daily">Daily</li>
-        <li class="time-weekly">Weekly</li>
-        <li class="time-monthly">Monthly</li>
-    </ul>
-</div>
+    <div class="user__main">
+        <div class="user__main-avatar">
+            <img src="../../../assets/images/image-jeremy.png" alt="user avatar">
+        </div>
+        <div class="user__main-info">
+            <h4>Report for</h4>
+            <p>Jeremy Robson</p>
+        </div>
+    </div>
+    <div class="user__time">
+        <ul>
+            <li class="time-daily" (click)="selectTime('daily')" [class.selected]="selectedTime === 'daily'">
+                Daily
+            </li>
+            <li class="time-weekly" (click)="selectTime('weekly')" [class.selected]="selectedTime === 'weekly'">
+                Weekly
+            </li>
+            <li class="time-monthly" (click)="selectTime('monthly')" [class.selected]="selectedTime === 'monthly'">
+                Monthly
+            </li>
+        </ul>
+    </div>
 </section>
