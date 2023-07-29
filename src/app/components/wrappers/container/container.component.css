@@ -4,3 +4,12 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
   }
+
+  @media (max-width: 768px) {
+    .activity {
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      grid-auto-rows: max(107px, 30vw);
+      gap: 15px;
+    }
+  }

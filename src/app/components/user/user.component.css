@@ -55,3 +55,42 @@
   cursor: pointer;
   color: var(--white);
 }
+
+@media (max-width: 768px) {
+  .user {
+    height: max(135px, 30vw);
+  }
+  .user__main {
+    height: 88px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  .user__main-avatar {
+    height: 48px;
+  }
+  .user__main-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .user__main-info h4 {
+    font-size: 0.6rem;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+
+  .user__time {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    }
+  .user__time ul {
+    font-size: 0.8rem;
+    margin: 0;
+    height: 47px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
