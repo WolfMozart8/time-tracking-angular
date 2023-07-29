@@ -9,7 +9,7 @@ import { TimeData } from '../models/time-data';
 })
 export class DataService {
 
-  private dataUrl: string = "../../assets/data.json"
+  private dataUrl: string = "assets/data.json"
 
   constructor(private http: HttpClient) { }
 
