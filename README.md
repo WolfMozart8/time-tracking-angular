@@ -1,30 +1,61 @@
-# Work in progress...
+# Frontend Mentor - Time tracking dashboard solution
+
+This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
+
+### Screenshot
+
+![](./images/preview.png)
 
 
-# TimeTrackingAngular
+### Links
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+- Solution URL: [GitHub](https://github.com/WolfMozart8/time-tracking-angular)
+- Live Site URL: [Github pages](https://wolfmozart8.github.io/time-tracking-angular/)
 
-## Development server
+## My process
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Built with
 
-## Code scaffolding
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Angular](https://angular.io/) - JS Framwork
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### What I learned
 
-## Build
+I learned Angular (this is my first time) and i have noticed significant improvements in my TypeScript and CSS skills.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Continued development
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+I encountered some issues with Angular components, especially those that use 'display: flex,' for example. I wasn't entirely sure how to correctly bind them with other components. To address this, I plan to work on more Angular projects to enhance my skills.
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Frontend Mentor - [@WolfMozart8](https://www.frontendmentor.io/profile/WolfMozart8)
